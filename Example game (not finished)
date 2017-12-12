@@ -59,8 +59,7 @@ def abstraction ():
     try:
         if prompt_2 == 'A':
             print ("YOU TOOK THE LEFT PATH THAT TOOK YOU DOWN A TUNNEL THAT LEAD TO A DEAD END. *YOU DIED BECAUSE YOU ARE STUPID AND SHOULD HAVE GONE RIGHT. WOW.*")
-            print
-            death ()
+            
         elif prompt_2 == 'B':
             print ("YOU TOOK THE RIGHT PATH THAT TOOK YOU DOWN A TUNNEL THAT LEAD TO A LARGE AREA FILLED WITH COTTON CANDY CLOUDS AND PIXIE STICK TREES. THE MONSTER DOES NOT ENTER THE TUNNEL BECAUSE HE DOES NOT LIKE THE PIXIE STICK TREES, BUT HE REMAINS AT THE OPENING AT THE TUNNEL, SO MAKE SURE YOU DO NOT GET TO CLOSE.")
 
@@ -73,15 +72,27 @@ def pixie_stick ():
     print ("HOW DO YOU REACT? DO YOU... A)GO BACK INTO THE TUNNEL TO THE BUBBLEGUM MONSTER... B)CLIMB UP A PIXIE STICK TREE... OR C)CONTINUE DOWN THE PATH OF THE PEPPERMINT TRAIL...")
     print
     yikes ()
-    
+
 def yikes ()
     prompt_3 = input ("TYPE 'A', 'B', OR 'C' HERE.")
     try:
         if prompt_3 == 'A':
+            print ("YOU WALKED INTO THE TUNNEL AND WAS EATEN BY THE BUBBLEGUM MONSTER. *YOU DIED*")
             
-
-
-
-
-
-     start ()
+        elif prompt_3 == 'B':
+            print ("YOU CLIMB UP THE PIXIE STICK TREE AND SPOT A HOLE IN THE CEILING. THE TREE IS LARGE ENOUGH FOR YOU TO REACH THE HOLE.")
+            print
+            ending_thing ()
+            
+        elif prompt_3 == 'C':
+            print ("YOU CONTINUE TO WALK DOWN THE PATH OF THE PEPPERMINT TRAIL.")
+            print
+            boat_escape ()
+            
+def boat_escape (): 
+    
+            
+def ending_thing ():
+    print ("YOU ESCAPED THE CAVE! GOOD FOR YOU! NOW YOU MUST LIVE THE REST OF YOUR LIFE ON TOP OF A CAVE ON AN SECRET ISLAND IN THE MIDDLE OF THE PACIFIC OCEAN AND KNOWONE WILL EVER FIND YOU. CONGRATS! ")
+    
+def 

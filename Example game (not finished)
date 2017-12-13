@@ -88,11 +88,42 @@ def yikes ()
             print ("YOU CONTINUE TO WALK DOWN THE PATH OF THE PEPPERMINT TRAIL.")
             print
             boat_escape ()
-            
-def boat_escape (): 
-    
-            
-def ending_thing ():
-    print ("YOU ESCAPED THE CAVE! GOOD FOR YOU! NOW YOU MUST LIVE THE REST OF YOUR LIFE ON TOP OF A CAVE ON AN SECRET ISLAND IN THE MIDDLE OF THE PACIFIC OCEAN AND KNOWONE WILL EVER FIND YOU. CONGRATS! ")
-    
-def 
+
+def ending_thing():
+    print ("YOU ESCAPED THE CAVE! GOOD FOR YOU! NOW YOU MUST LIVE THE REST OF YOUR LIFE ON TOP OF A CAVE ON AN SECRET ISLAND IN THE MIDDLE OF THE PACIFIC OCEAN AND NOBODY WILL EVER FIND YOU. CONGRATS! ")
+
+def boat_escape ():
+    print ("AS YOU CONTINUE DOWN THE PATH OF THE PEPPERMINT, YOU EVENTUALLY REACH A HALL OF MARSHMELLOWS. THE FLOOR IS WEAK AND YOU FALL DOWN A LARGE PIT. YOU FALL DOWN CONTINUESLTY FOR HOURS, UNTIL YOU FINALLY END UP CRASHING INTO A RIVER OF ORANGE JUICE. THE ORANGE JUICE STREAM LEADS BACK TO THE SURFACE OF AN ISLAND WHERE A CRUSE SHIP IS DOCKED. YOU SECRETLY BOARD THE SHIP AS IF YOU WERE ON THE CRUSE THE WHOLE TIME, AND ESCAPE THE TUNNEL. CONGRATS! ")
+
+    time.sleep(3)
+
+    print ("CONGRATS! YOU ESCAPED! WHAT ARE YOUR FINAL THOUGHTS? A) THEY WILL NEVER KNOW I BOARDED THIS SHIP ILLIGALLY! MUAAHAHAHA! ... B) I WONDER HOW I GOT ONTO THE ISLAND IN THE FIRST PLACE ... C) NO! ALL THE CANDY! I WILL NEVER SEE IT AGAIN! ... D) THE MORPH SUIT! BEARS! PINK! IT HAS GOTTEN TO ME! AHHH! ")
+    print
+    congrats ()
+
+def congrats ():
+    prompt_4 = input ("TYPE 'A', 'B', 'C', OR 'D' HERE")
+        try:
+            if prompt_4 == 'A':
+                print ("YOU CRIMINAL! NICE JOB.")
+                print
+                finalle ()
+
+            elif prompt_4 == 'B':
+                print ("THAT IS A QUESTION THAT WILL NEVER BE ANSWERED.")
+                print
+                finalle ()
+
+            elif prompt_4 == 'C':
+                print ("YOU SHOULD HAVE BROUGHT SOME WITH YOU! OH WELL.")
+                print
+                finalle ()
+
+            elif prompt_4 == 'D':
+                print ("YOUR WORST NIGHTMARES HAVE COME BACK! OH NO!")
+                print
+                finalle ()
+
+def finalle ():
+    print ("CONGRATS YOU COMPLETED THE GAME!")
+
